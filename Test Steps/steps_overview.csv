@@ -1,0 +1,720 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+9,Verify Punch In functionality in OrangeHRM,"Navigate to the attendance page, punch in, and verify the home page.","Step 1: Navigate to web/index.php/*/*
+Step 2: Click on i attendance
+Step 3: Click on link punchInOut
+Step 4: Enter input value in textarea typeHere
+Step 5: Click on button in -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+10,Verify Punch Out functionality in OrangeHRM,"Navigate to the attendance page, punch out, and verify the home page.","Step 1: Navigate to web/index.php/dashboard/index
+Step 2: Click on link time -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 3: Click on i attendance
+Step 4: Click on link punchInOut
+Step 5: Enter input value in textarea typeHere
+Step 6: Click on button out -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+8,Verify Home Page Access in OrangeHRM,Navigate to the PIM section and verify access to the home page.,"Step 1: Navigate to web/index.php/dashboard/index
+Step 2: Click on link pim -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+2,Add Employee Report To details in OrangeHRM,"Search for an employee, add report to details, and save the changes verifying the home page.","Step 1: Navigate to web/index.php/dashboard/index
+Step 2: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 3: Enter input value in input typeForHints
+Step 4: Click on button search
+Step 5: Click on div dynamicContent ( 0227) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 6: Click on link reportTo -> Navigate to page 'report view#web/index.php/*/viewReportToDetails/empNumber/*'
+Step 7: Click on button add
+Step 8: Enter input value in input typeForHints
+Step 9: Click on div autocompleteOption
+Step 10: Click on i object
+Step 11: Click on div direct
+Step 12: Click on button save -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",Medium,NEW
+3,Add multiple Employees with Login Details in OrangeHRM,Add multiple employees with their login details and verify the home page after saving.,"Step 1: Navigate to web/index.php/dashboard/index
+Step 2: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 3: Click on button add
+Step 4: Click on input firstName
+Step 5: Enter input value in input firstName
+Step 6: Enter input value in input lastName
+Step 7: Click on label createLoginDetails
+Step 8: Enter input value in input object
+Step 9: Enter input value in input password
+Step 10: Enter input value in input password2
+Step 11: Click on button save
+Step 12: Click on link dynamicOptions (pim)
+Step 13: Click on button add
+Step 14: Click on input firstName
+Step 15: Enter input value in input firstName
+Step 16: Enter input value in input lastName
+Step 17: Click on label createLoginDetails
+Step 18: Enter input value in input object
+Step 19: Enter input value in input password
+Step 20: Enter input value in input password2
+Step 21: Click on button save
+Step 22: Click on link dynamicOptions (pim)
+Step 23: Click on button add
+Step 24: Click on input firstName
+Step 25: Enter input value in input firstName
+Step 26: Enter input value in input lastName
+Step 27: Click on label createLoginDetails
+Step 28: Enter input value in input object
+Step 29: Enter input value in input password
+Step 30: Enter input value in input password2
+Step 31: Click on button save
+Step 32: Click on link dynamicOptions (pim)
+Step 33: Click on button add
+Step 34: Click on input firstName
+Step 35: Enter input value in input firstName
+Step 36: Enter input value in input lastName
+Step 37: Click on label createLoginDetails
+Step 38: Enter input value in input object
+Step 39: Enter input value in input password
+Step 40: Enter input value in input password2
+Step 41: Click on button save
+Step 42: Click on link dynamicOptions (pim)
+Step 43: Click on button add
+Step 44: Click on input firstName
+Step 45: Enter input value in input firstName
+Step 46: Enter input value in input lastName
+Step 47: Click on label createLoginDetails
+Step 48: Enter input value in input object
+Step 49: Enter input value in input password
+Step 50: Enter input value in input password2
+Step 51: Click on button save
+Step 52: Click on link dynamicOptions (pim)
+Step 53: Click on button add
+Step 54: Click on input firstName
+Step 55: Enter input value in input firstName
+Step 56: Enter input value in input lastName
+Step 57: Click on label createLoginDetails
+Step 58: Enter input value in input object
+Step 59: Enter input value in input password
+Step 60: Enter input value in input password2
+Step 61: Click on button save
+Step 62: Click on link dynamicOptions (pim)
+Step 63: Click on button add
+Step 64: Click on input firstName
+Step 65: Enter input value in input firstName
+Step 66: Enter input value in input lastName
+Step 67: Click on label createLoginDetails
+Step 68: Enter input value in input object
+Step 69: Enter input value in input password
+Step 70: Enter input value in input password2
+Step 71: Click on button save
+Step 72: Click on link dynamicOptions (pim) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 73: Click on button add
+Step 74: Click on input firstName
+Step 75: Enter input value in input firstName
+Step 76: Enter input value in input lastName
+Step 77: Click on label male
+Step 78: Click on link personalDetails (pim) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 79: Click on button add
+Step 80: Click on input firstName
+Step 81: Enter input value in input firstName
+Step 82: Enter input value in input lastName
+Step 83: Click on label createLoginDetails
+Step 84: Enter input value in input object
+Step 85: Enter input value in input password
+Step 86: Enter input value in input password2
+Step 87: Click on button save
+Step 88: Click on link dynamicOptions (pim)
+Step 89: Click on button add
+Step 90: Click on input firstName
+Step 91: Enter input value in input firstName
+Step 92: Enter input value in input lastName
+Step 93: Click on label createLoginDetails
+Step 94: Enter input value in input object
+Step 95: Enter input value in input password
+Step 96: Enter input value in input password2
+Step 97: Click on button save -> Navigate to page ''
+Step 98: Take full page screenshot as checkpoint
+",Medium,NEW
+4,Update Employee Personal Information in OrangeHRM,Update multiple employees' personal information and verify the home page after saving.,"Step 1: Navigate to web/index.php/dashboard/index
+Step 2: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 3: Enter input value in input typeForHints
+Step 4: Click on button search
+Step 5: Click on div dynamicContent ( 0228) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 6: Click on link personalDetails
+Step 7: Enter input value in input driversLicenseNumber
+Step 8: Enter input value in input licenseExpiryDate
+Step 9: Click on div select
+Step 10: Click on div indian
+Step 11: Click on div select2
+Step 12: Click on div married
+Step 13: Enter input value in input dateOfBirth
+Step 14: Click on label male
+Step 15: Click on button save
+Step 16: Click on link personalDetails (pim) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 17: Enter input value in input typeForHints
+Step 18: Click on button search
+Step 19: Click on div dynamicContent ( 0229) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 20: Click on link personalDetails2
+Step 21: Enter input value in input driversLicenseNumber
+Step 22: Enter input value in input licenseExpiryDate
+Step 23: Click on div select
+Step 24: Click on div indian
+Step 25: Click on div select2
+Step 26: Click on div single
+Step 27: Enter input value in input dateOfBirth
+Step 28: Click on label male
+Step 29: Click on button save
+Step 30: Click on link personalDetails (pim) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 31: Enter input value in input typeForHints
+Step 32: Click on button search
+Step 33: Click on div dynamicContent ( 0230) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 34: Click on link personalDetails3
+Step 35: Enter input value in input driversLicenseNumber
+Step 36: Enter input value in input licenseExpiryDate
+Step 37: Click on div select
+Step 38: Click on div american
+Step 39: Click on div select2
+Step 40: Click on div married
+Step 41: Enter input value in input dateOfBirth
+Step 42: Click on label male
+Step 43: Click on button save
+Step 44: Click on link personalDetails (pim) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 45: Enter input value in input typeForHints
+Step 46: Click on button search
+Step 47: Click on div dynamicContent ( 0231) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 48: Click on link personalDetails4
+Step 49: Enter input value in input driversLicenseNumber
+Step 50: Enter input value in input licenseExpiryDate
+Step 51: Click on div select
+Step 52: Click on div indian
+Step 53: Click on div select2
+Step 54: Click on div single
+Step 55: Enter input value in input dateOfBirth
+Step 56: Click on label male
+Step 57: Click on button save
+Step 58: Click on link personalDetails (pim) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 59: Enter input value in input typeForHints
+Step 60: Click on button search
+Step 61: Click on div dynamicContent ( 0232) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 62: Click on link personalDetails5
+Step 63: Enter input value in input driversLicenseNumber
+Step 64: Enter input value in input licenseExpiryDate
+Step 65: Click on div select
+Step 66: Click on div indian
+Step 67: Click on div select2
+Step 68: Click on div married
+Step 69: Enter input value in input dateOfBirth
+Step 70: Click on label male
+Step 71: Click on button save
+Step 72: Click on link personalDetails (pim) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 73: Enter input value in input typeForHints
+Step 74: Click on button search
+Step 75: Click on div dynamicContent ( 0233) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 76: Click on link personalDetails6
+Step 77: Enter input value in input driversLicenseNumber
+Step 78: Enter input value in input licenseExpiryDate
+Step 79: Click on div select
+Step 80: Click on div american
+Step 81: Click on div select2
+Step 82: Click on div married
+Step 83: Enter input value in input dateOfBirth
+Step 84: Click on label male
+Step 85: Click on button save
+Step 86: Click on link personalDetails (pim) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 87: Enter input value in input typeForHints
+Step 88: Click on button search
+Step 89: Click on div dynamicContent ( 0234) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 90: Click on link personalDetails7
+Step 91: Enter input value in input driversLicenseNumber
+Step 92: Enter input value in input licenseExpiryDate
+Step 93: Click on div select
+Step 94: Click on div american
+Step 95: Click on div select2
+Step 96: Click on div single
+Step 97: Enter input value in input dateOfBirth
+Step 98: Click on label male
+Step 99: Click on button save
+Step 100: Click on link personalDetails (pim) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 101: Enter input value in input typeForHints
+Step 102: Click on button search
+Step 103: Click on div dynamicContent ( 0235) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 104: Click on link personalDetails8
+Step 105: Enter input value in input driversLicenseNumber
+Step 106: Enter input value in input licenseExpiryDate
+Step 107: Click on div select
+Step 108: Click on div indian
+Step 109: Click on div select2
+Step 110: Click on div married
+Step 111: Enter input value in input dateOfBirth
+Step 112: Click on label male
+Step 113: Click on button save
+Step 114: Click on link personalDetails (pim) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 115: Enter input value in input typeForHints
+Step 116: Click on button search -> Navigate to page ''
+Step 117: Take full page screenshot as checkpoint
+",Low,NEW
+5,Manage Employee Salary Information in OrangeHRM,Add and save salary details for multiple employees and verify the home page.,"Step 1: Navigate to web/index.php/dashboard/index
+Step 2: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 3: Enter input value in input typeForHints
+Step 4: Click on button search
+Step 5: Click on div dynamicContent ( 0228) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 6: Click on link contactDetails4 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 7: Enter input value in input object2
+Step 8: Enter input value in input object3
+Step 9: Enter input value in input object4
+Step 10: Enter input value in input object5
+Step 11: Enter input value in input object6
+Step 12: Click on i icon
+Step 13: Click on div address
+Step 14: Enter input value in input object7
+Step 15: Enter input value in input object8
+Step 16: Enter input value in input object9
+Step 17: Enter input value in input object10
+Step 18: Enter input value in input object11
+Step 19: Click on button save2
+Step 20: Click on link pim2 -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 21: Enter input value in input typeForHints
+Step 22: Click on button search
+Step 23: Click on div dynamicContent ( 0229) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 24: Click on link contactDetails5 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 25: Enter input value in input object2
+Step 26: Enter input value in input object3
+Step 27: Enter input value in input object4
+Step 28: Enter input value in input object5
+Step 29: Enter input value in input object6
+Step 30: Click on i icon
+Step 31: Click on div unitedStates
+Step 32: Enter input value in input object7
+Step 33: Enter input value in input object8
+Step 34: Enter input value in input object9
+Step 35: Enter input value in input object10
+Step 36: Enter input value in input object11
+Step 37: Click on button save2
+Step 38: Click on link pim2 -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 39: Enter input value in input typeForHints
+Step 40: Click on button search
+Step 41: Click on div dynamicContent ( 0230) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 42: Click on link contactDetails6 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 43: Enter input value in input object2
+Step 44: Enter input value in input object3
+Step 45: Enter input value in input object4
+Step 46: Enter input value in input object5
+Step 47: Enter input value in input object6
+Step 48: Click on i icon
+Step 49: Click on div unitedStates
+Step 50: Enter input value in input object7
+Step 51: Enter input value in input object8
+Step 52: Enter input value in input object9
+Step 53: Enter input value in input object10
+Step 54: Enter input value in input object11
+Step 55: Click on button save2
+Step 56: Click on link pim2 -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 57: Enter input value in input typeForHints
+Step 58: Click on button search
+Step 59: Click on div dynamicContent ( 0231) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 60: Click on link contactDetails7 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 61: Enter input value in input object2
+Step 62: Enter input value in input object3
+Step 63: Enter input value in input object4
+Step 64: Enter input value in input object5
+Step 65: Enter input value in input object6
+Step 66: Click on i icon
+Step 67: Click on div address
+Step 68: Enter input value in input object7
+Step 69: Enter input value in input object8
+Step 70: Enter input value in input object9
+Step 71: Enter input value in input object10
+Step 72: Enter input value in input object11
+Step 73: Click on button save2
+Step 74: Click on link pim2 -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 75: Enter input value in input typeForHints
+Step 76: Click on button search
+Step 77: Click on div dynamicContent ( 0232) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 78: Click on link contactDetails8 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 79: Enter input value in input object2
+Step 80: Enter input value in input object3
+Step 81: Enter input value in input object4
+Step 82: Enter input value in input object5
+Step 83: Enter input value in input object6
+Step 84: Click on i icon
+Step 85: Click on div address
+Step 86: Enter input value in input object7
+Step 87: Enter input value in input object8
+Step 88: Enter input value in input object9
+Step 89: Enter input value in input object10
+Step 90: Enter input value in input object11
+Step 91: Click on button save2
+Step 92: Click on link pim2 -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 93: Enter input value in input typeForHints
+Step 94: Click on button search2
+Step 95: Click on div dynamicContent ( 0233) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 96: Click on link contactDetails9 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 97: Enter input value in input object2
+Step 98: Enter input value in input object3
+Step 99: Enter input value in input object4
+Step 100: Enter input value in input object5
+Step 101: Enter input value in input object6
+Step 102: Click on i icon
+Step 103: Click on div india
+Step 104: Enter input value in input object7
+Step 105: Enter input value in input object8
+Step 106: Enter input value in input object9
+Step 107: Enter input value in input object10
+Step 108: Enter input value in input object11
+Step 109: Click on button save2
+Step 110: Click on link pim2 -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 111: Enter input value in input typeForHints
+Step 112: Click on button search
+Step 113: Click on div dynamicContent ( 0234) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 114: Click on link contactDetails10 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 115: Enter input value in input object2
+Step 116: Enter input value in input object3
+Step 117: Enter input value in input object4
+Step 118: Enter input value in input object5
+Step 119: Enter input value in input object6
+Step 120: Click on i icon
+Step 121: Click on div india
+Step 122: Enter input value in input object7
+Step 123: Enter input value in input object8
+Step 124: Enter input value in input object9
+Step 125: Enter input value in input object10
+Step 126: Enter input value in input object11
+Step 127: Click on button save2
+Step 128: Click on link pim2 -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 129: Enter input value in input typeForHints
+Step 130: Click on button search
+Step 131: Click on div dynamicContent ( 0235) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 132: Click on link contactDetails11 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 133: Enter input value in input object2
+Step 134: Enter input value in input object3
+Step 135: Enter input value in input object4
+Step 136: Enter input value in input object5
+Step 137: Enter input value in input object6
+Step 138: Click on i icon
+Step 139: Click on div unitedStates
+Step 140: Enter input value in input object7
+Step 141: Enter input value in input object8
+Step 142: Enter input value in input object9
+Step 143: Enter input value in input object10
+Step 144: Enter input value in input object11
+Step 145: Click on button save2 -> Navigate to page ''
+Step 146: Take full page screenshot as checkpoint
+",Low,NEW
+1,Navigate Employee Personal Details in OrangeHRM,"Access various employee details including contact, job, and immigration information.","Step 1: Navigate to web/index.php/dashboard/index
+Step 2: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 3: Click on div dynamicContent ( 0210) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 4: Click on link contactDetails -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 5: Click on link membershipOptions (emergencyContacts)
+Step 6: Click on link dependents -> Navigate to page 'employee view#web/index.php/*/viewDependents/empNumber/*'
+Step 7: Click on link immigration -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 8: Click on link job -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 9: Click on link salary -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 10: Click on link reportTo -> Navigate to page 'report view#web/index.php/*/viewReportToDetails/empNumber/*'
+Step 11: Click on link qualifications -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 12: Click on link membershipOptions (memberships)
+Step 13: Click on link reportTo -> Navigate to page 'report view#web/index.php/*/viewReportToDetails/empNumber/*'
+Step 14: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 15: Click on div dynamicContent ( 0193) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 16: Click on link employeeList -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 17: Click on div dynamicContent ( 10010) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 18: Click on link contactDetails2 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 19: Click on link membershipOptions (emergencyContacts2)
+Step 20: Click on link dependents2 -> Navigate to page 'employee view#web/index.php/*/viewDependents/empNumber/*'
+Step 21: Click on link immigration2 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 22: Click on link job2 -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 23: Click on link salary2 -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 24: Click on link reportTo2 -> Navigate to page 'report view#web/index.php/*/viewReportToDetails/empNumber/*'
+Step 25: Click on link qualifications2 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 26: Click on link membershipOptions (memberships2)
+Step 27: Click on link employeeList -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 28: Click on link dynamicOptions (time)
+Step 29: Click on input typeForHints2
+Step 30: Click on i attendance
+Step 31: Click on link punchInOut
+Step 32: Click on textarea typeHere
+Step 33: Enter input value in textarea typeHere
+Step 34: Click on button in
+Step 35: Click on i attendance2
+Step 36: Click on link punchInOut
+Step 37: Click on textarea typeHere
+Step 38: Enter input value in textarea typeHere
+Step 39: Click on button out
+Step 40: Click on link dynamicOptions (myInfo) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 41: Click on link personalDetails (performance) -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 42: Click on link dynamicOptions (myInfo) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 43: Click on i icon
+Step 44: Click on div single
+Step 45: Click on i icon2
+Step 46: Click on div indian
+Step 47: Click on i icon3
+Step 48: Click on form employeeFullName
+Step 49: Click on button save
+Step 50: Click on link contactDetails3 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 51: Click on link membershipOptions (emergencyContacts3)
+Step 52: Click on link dependents3 -> Navigate to page 'employee view#web/index.php/*/viewDependents/empNumber/*'
+Step 53: Click on link immigration3 -> Navigate to page 'dynamic content#web/index.php/*/*/empNumber/*'
+Step 54: Take full page screenshot as checkpoint
+",Trivial,NEW
+6,Update Employee Job Positions in OrangeHRM,Change job positions for multiple employees and verify the home page after saving.,"Step 1: Navigate to web/index.php/dashboard/index
+Step 2: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 3: Enter input value in input typeForHints
+Step 4: Click on button search
+Step 5: Click on div dynamicContent ( 0228) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 6: Click on link job -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 7: Click on i dateInputIcon
+Step 8: Click on div calendarDate
+Step 9: Click on i selectAfterIcon
+Step 10: Click on div jobPositionAi
+Step 11: Click on i selectAfterIcon2
+Step 12: Click on div jobPositionProfessionals
+Step 13: Click on i selectAfterIcon3
+Step 14: Click on div jobPositionItmanager
+Step 15: Click on i selectAfterIcon4
+Step 16: Click on div jobPositionOffice
+Step 17: Click on i selectAfterIcon5
+Step 18: Click on div jobPositionFullTimePermanent
+Step 19: Click on button save
+Step 20: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 21: Enter input value in input typeForHints
+Step 22: Click on button search
+Step 23: Click on div dynamicContent ( 0229) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 24: Click on link job2 -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 25: Click on i dateInputIcon
+Step 26: Click on div calendarDate
+Step 27: Click on i selectAfterIcon
+Step 28: Click on div jobPositionAutomationArchitect
+Step 29: Click on i selectAfterIcon2
+Step 30: Click on div jobPositionProfessionals
+Step 31: Click on i selectAfterIcon3
+Step 32: Click on div jobPositionSoftwareDeveloper
+Step 33: Click on i selectAfterIcon4
+Step 34: Click on div jobPositionOffice
+Step 35: Click on i selectAfterIcon5
+Step 36: Click on div jobPositionFullTimePermanent
+Step 37: Click on button save
+Step 38: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 39: Enter input value in input typeForHints
+Step 40: Click on button search
+Step 41: Click on div dynamicContent ( 0230) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 42: Click on link job3 -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 43: Click on i dateInputIcon
+Step 44: Click on div calendarDate
+Step 45: Click on i selectAfterIcon
+Step 46: Click on div jobPositionAi
+Step 47: Click on i selectAfterIcon2
+Step 48: Click on div jobPositionProfessionals
+Step 49: Click on i selectAfterIcon3
+Step 50: Click on div jobPositionItmanager
+Step 51: Click on i selectAfterIcon4
+Step 52: Click on div jobPositionOffice
+Step 53: Click on i selectAfterIcon5
+Step 54: Click on div jobPositionFullTimePermanent
+Step 55: Click on button save
+Step 56: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 57: Enter input value in input typeForHints
+Step 58: Click on button search
+Step 59: Click on div dynamicContent ( 0231) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 60: Click on link job4 -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 61: Click on i dateInputIcon
+Step 62: Click on div calendarDate
+Step 63: Click on i selectAfterIcon
+Step 64: Click on div jobPositionDataQualityEngineer
+Step 65: Click on i selectAfterIcon2
+Step 66: Click on div jobPositionProfessionals
+Step 67: Click on i selectAfterIcon3
+Step 68: Click on div jobPositionLeadDeveloper
+Step 69: Click on i selectAfterIcon4
+Step 70: Click on div jobPositionOffice
+Step 71: Click on i selectAfterIcon5
+Step 72: Click on div jobPositionFullTimePermanent
+Step 73: Click on button save
+Step 74: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 75: Enter input value in input typeForHints
+Step 76: Click on button search
+Step 77: Click on div dynamicContent ( 0232) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 78: Click on link job5 -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 79: Click on i dateInputIcon
+Step 80: Click on div calendarDate
+Step 81: Click on i selectAfterIcon
+Step 82: Click on div jobPositionCidctestEngineer
+Step 83: Click on i selectAfterIcon2
+Step 84: Click on div jobPositionProfessionals
+Step 85: Click on i selectAfterIcon3
+Step 86: Click on div jobPositionMarketingManager
+Step 87: Click on i selectAfterIcon4
+Step 88: Click on div jobPositionOffice
+Step 89: Click on i selectAfterIcon5
+Step 90: Click on div jobPositionFullTimePermanent
+Step 91: Click on button save
+Step 92: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 93: Enter input value in input typeForHints
+Step 94: Click on button search
+Step 95: Click on div dynamicContent ( 0233) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 96: Click on link job6 -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 97: Click on i dateInputIcon
+Step 98: Click on div calendarDate
+Step 99: Click on i selectAfterIcon
+Step 100: Click on div jobPositionCidctestEngineer
+Step 101: Click on i selectAfterIcon2
+Step 102: Click on div jobPositionProfessionals
+Step 103: Click on i selectAfterIcon3
+Step 104: Click on div jobPositionQatester
+Step 105: Click on i selectAfterIcon4
+Step 106: Click on div jobPositionOffice
+Step 107: Click on i selectAfterIcon5
+Step 108: Click on div jobPositionFullTimePermanent
+Step 109: Click on button save
+Step 110: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 111: Enter input value in input typeForHints
+Step 112: Click on button search
+Step 113: Click on div dynamicContent ( 0234) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 114: Click on link job7 -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 115: Click on i dateInputIcon
+Step 116: Click on div calendarDate
+Step 117: Click on i selectAfterIcon
+Step 118: Click on div jobPositionApiautomationTester
+Step 119: Click on i selectAfterIcon2
+Step 120: Click on div jobPositionOfficialsAndManagers
+Step 121: Click on i selectAfterIcon3
+Step 122: Click on div jobPositionLeadDeveloper
+Step 123: Click on i selectAfterIcon4
+Step 124: Click on div jobPositionOffice
+Step 125: Click on i selectAfterIcon5
+Step 126: Click on div jobPositionFullTimePermanent
+Step 127: Click on button save
+Step 128: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 129: Enter input value in input typeForHints
+Step 130: Click on button search
+Step 131: Click on div dynamicContent ( 0235) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 132: Click on link job8 -> Navigate to page 'job details#web/index.php/*/viewJobDetails/empNumber/*'
+Step 133: Click on i dateInputIcon
+Step 134: Click on div calendarDate
+Step 135: Click on i selectAfterIcon
+Step 136: Click on div jobPositionCidctestEngineer
+Step 137: Click on i selectAfterIcon2
+Step 138: Click on div jobPositionOfficialsAndManagers
+Step 139: Click on i selectAfterIcon3
+Step 140: Click on div jobPositionSoftwareDeveloper
+Step 141: Click on i selectAfterIcon4
+Step 142: Click on div jobPositionOffice
+Step 143: Click on i selectAfterIcon5
+Step 144: Click on div jobPositionFullTimePermanent
+Step 145: Click on button save -> Navigate to page ''
+Step 146: Take full page screenshot as checkpoint
+",Trivial,NEW
+7,Add Salary Details for Employees in OrangeHRM,Input and save salary details for various employees and verify the home page.,"Step 1: Navigate to web/index.php/dashboard/index
+Step 2: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 3: Enter input value in input typeForHints
+Step 4: Click on button search
+Step 5: Click on div dynamicContent ( 0228) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 6: Click on link salary -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 7: Click on button add
+Step 8: Enter input value in input salaryAmount
+Step 9: Click on i salaryIcon
+Step 10: Click on div salaryGrade2
+Step 11: Click on i salaryIcon2
+Step 12: Click on div salaryWeekly
+Step 13: Click on i salaryIcon3
+Step 14: Click on div salaryCurrencyUsd
+Step 15: Enter input value in input salaryAmountRange
+Step 16: Enter input value in textarea salaryNotes
+Step 17: Click on button save
+Step 18: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 19: Enter input value in input typeForHints
+Step 20: Click on button search
+Step 21: Click on div dynamicContent ( 0229) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 22: Click on link salary2 -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 23: Click on button add
+Step 24: Enter input value in input salaryAmount
+Step 25: Click on i salaryIcon
+Step 26: Click on div salaryGrade5
+Step 27: Click on i salaryIcon2
+Step 28: Click on div salaryWeekly
+Step 29: Click on i salaryIcon3
+Step 30: Click on div salaryCurrencyUsd
+Step 31: Enter input value in input salaryAmountRange2
+Step 32: Enter input value in textarea salaryNotes
+Step 33: Click on button save
+Step 34: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 35: Enter input value in input typeForHints
+Step 36: Click on button search
+Step 37: Click on div dynamicContent ( 0230) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 38: Click on link salary3 -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 39: Click on button add
+Step 40: Enter input value in input salaryAmount
+Step 41: Click on i salaryIcon
+Step 42: Click on div salaryGrade6
+Step 43: Click on i salaryIcon2
+Step 44: Click on div salaryMonthly
+Step 45: Click on i salaryIcon3
+Step 46: Click on div salaryCurrencyUsd
+Step 47: Enter input value in input salaryAmountRange3
+Step 48: Enter input value in textarea salaryNotes
+Step 49: Click on button save
+Step 50: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 51: Enter input value in input typeForHints
+Step 52: Click on button search
+Step 53: Click on div dynamicContent ( 0231) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 54: Click on link salary4 -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 55: Click on button add
+Step 56: Enter input value in input salaryAmount
+Step 57: Click on i salaryIcon
+Step 58: Click on div salaryGrade6
+Step 59: Click on i salaryIcon2
+Step 60: Click on div salaryWeekly
+Step 61: Click on i salaryIcon3
+Step 62: Click on div salaryCurrencyUsd
+Step 63: Enter input value in input salaryAmountRange3
+Step 64: Enter input value in textarea salaryNotes
+Step 65: Click on button save
+Step 66: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 67: Enter input value in input typeForHints
+Step 68: Click on button search
+Step 69: Click on div dynamicContent ( 0232) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 70: Click on link salary5 -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 71: Click on button add
+Step 72: Enter input value in input salaryAmount
+Step 73: Click on i salaryIcon
+Step 74: Click on div salaryGrade5
+Step 75: Click on i salaryIcon2
+Step 76: Click on div salaryWeekly
+Step 77: Click on i salaryIcon3
+Step 78: Click on div salaryCurrencyUsd
+Step 79: Enter input value in input salaryAmountRange2
+Step 80: Enter input value in textarea salaryNotes
+Step 81: Click on button save
+Step 82: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 83: Enter input value in input typeForHints
+Step 84: Click on button search
+Step 85: Click on div dynamicContent ( 0233) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 86: Click on link salary6 -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 87: Click on button add
+Step 88: Enter input value in input salaryAmount
+Step 89: Click on i salaryIcon
+Step 90: Click on div salaryGrade4
+Step 91: Click on i salaryIcon2
+Step 92: Click on div salaryMonthly
+Step 93: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 94: Enter input value in input typeForHints
+Step 95: Click on button search
+Step 96: Click on div dynamicContent ( 0234) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 97: Click on link salary7 -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 98: Click on button add
+Step 99: Enter input value in input salaryAmount
+Step 100: Click on i salaryIcon
+Step 101: Click on div salaryGrade4
+Step 102: Click on i salaryIcon2
+Step 103: Click on link pim -> Navigate to page 'dynamic content#web/index.php/*/*'
+Step 104: Enter input value in input typeForHints
+Step 105: Click on button search
+Step 106: Click on div dynamicContent ( 0235) -> Navigate to page 'personal details view#web/index.php/*/viewPersonalDetails/empNumber/*'
+Step 107: Click on link salary8 -> Navigate to page 'salary list view#web/index.php/*/viewSalaryList/empNumber/*'
+Step 108: Click on button add
+Step 109: Enter input value in input salaryAmount
+Step 110: Click on i salaryIcon
+Step 111: Click on div salaryGrade1
+Step 112: Click on i salaryIcon2
+Step 113: Click on div salaryMonthly
+Step 114: Click on i salaryIcon3
+Step 115: Click on div salaryCurrencyUsd
+Step 116: Enter input value in input salaryAmountRange4
+Step 117: Enter input value in textarea salaryNotes
+Step 118: Click on button save -> Navigate to page ''
+Step 119: Take full page screenshot as checkpoint
+",Trivial,NEW
