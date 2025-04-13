@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to web/index.php/*/*",
+        "step 2: Click on i attendance",
+        "step 3: Click on link punchInOut",
+        "step 4: Enter input value in textarea typeHere",
+        "step 5: Click on button in -> Navigate to page ''",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}
