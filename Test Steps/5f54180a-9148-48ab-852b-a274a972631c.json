@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to web/index.php/dashboard/index",
+        "step 2: Click on link time -> Navigate to page 'dynamic content#web/index.php/*/*'",
+        "step 3: Click on i attendance",
+        "step 4: Click on link punchInOut",
+        "step 5: Enter input value in textarea typeHere",
+        "step 6: Click on button out -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}
